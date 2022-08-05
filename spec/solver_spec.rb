@@ -29,4 +29,8 @@ describe Solver do
   it'Should return fizz when n % 5 = 0' do
     expect(@solver.fizzbuzz(5)).to eql 'buzz'
   end
+
+  it'Should return fizz when n % 3 = 0 && n % 5 = 0' do
+    expect(@solver.fizzbuzz(15)).to eql 'fizzbuzz'
+  end
 end
