@@ -26,11 +26,15 @@ describe Solver do
     expect(@solver.fizzbuzz(3)).to eql 'fizz'
   end
 
-  it'Should return fizz when n % 5 = 0' do
+  it'Should return buzz when n % 5 = 0' do
     expect(@solver.fizzbuzz(5)).to eql 'buzz'
   end
 
-  it'Should return fizz when n % 3 = 0 && n % 5 = 0' do
+  it'Should return fizzbuzz when n % 3 = 0 && n % 5 = 0' do
     expect(@solver.fizzbuzz(15)).to eql 'fizzbuzz'
+  end
+
+  it'Should return n as a string else cases' do
+    expect(@solver.fizzbuzz(17)).to eql '17'
   end
 end
