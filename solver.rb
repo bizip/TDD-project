@@ -9,4 +9,14 @@ class Solver
   def reverse(str)
     str.reverse
   end
+
+  def fizzbuzz(nbr)
+    fizz = (nbr % 3 == 0)
+    buzz = (nbr % 5 == 0)
+
+    return 'fizzbuzz' if fizz && buzz
+    return 'fizz' if fizz
+    return 'buzz' if buzz
+    return nbr.to_s unless fizz && buzz
+  end
 end
