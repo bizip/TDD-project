@@ -18,7 +18,6 @@ describe Solver do
     end
 
     it 'Raises an exception' do
-      # expect(@solver.factorial(-9)).to eql
       expect { @solver.factorial(-9) }.to raise_error('Sorry only positive number allowed')
     end
   end
