@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@NatiG25](https://github.com/NatiG25)
 - Twitter: [@NatiG87702270](https://twitter.com/NatiG87702270)
-- LinkedIn: [@Natnail](https://linkedin.com/in/temesgen-g-gorgis-0910a6229 )
+- LinkedIn: [@Natnail](https://www.linkedin.com/in/natnailgorgis/ )
 
 👤 **Bizimungu Pascal**
 
