@@ -11,8 +11,8 @@ class Solver
   end
 
   def fizzbuzz(nbr)
-    fizz = (nbr % 3 == 0)
-    buzz = (nbr % 5 == 0)
+    fizz = (nbr % 3).zero?
+    buzz = (nbr % 5).zero?
 
     return 'fizzbuzz' if fizz && buzz
     return 'fizz' if fizz
