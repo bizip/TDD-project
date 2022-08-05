@@ -1,58 +1,67 @@
-
-
+# TDD-project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-> # ruby-templete
-This reposittory has all the sartup files required to start a ruby project with linters and so on, Please try it
+
+> TDD practice.
 
 ## Built With
 
--Ruby
+- Ruby
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- copy this link git@github.com:bizip/TDD-project.git
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write git clone git@github.com:bizip/TDD-project.git
+- go to the repository folder in your command prompt cd school-library
+- use npm install to install the dependencies.
 
-You need to have a git installed
-You need to have a basic knowledge about ruby
+## Prerequisites
+
+- Have a working and updated browser
+- Have a local version control like git install on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
 
 ### Setup
 
-#### clone this project (using git clone https://github.com/bizip/ruby-templete.git) to your local computer and use telminal to navigate into the parent directory of this project.
+- Clone the git repo using this command: git clone git@github.com:bizip/TDD-project.git
 
-## OR
-choose this repository as your templete
+### Run tests
 
+- rubocop --color : To test ruby codes
 
-### Usage
+## Author
 
-run: 
+👤 **Natnail G/gorgis**
 
-## Authors
+- GitHub: [@NatiG25](https://github.com/NatiG25)
+- Twitter: [@NatiG87702270](https://twitter.com/NatiG87702270)
+- LinkedIn: [@Natnail](https://www.linkedin.com/in/natnailgorgis/ )
 
-👤 **Author1**
+👤 **Bizimungu Pascal**
 
 - GitHub: [@githubhandle](https://github.com/bizip)
 - Twitter: [@twitterhandle](https://twitter.com/BizimunguPasca9)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/bizimungu)
 
-## 🤝 Contributing
+
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a star if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse linters
+- Coding partners
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
