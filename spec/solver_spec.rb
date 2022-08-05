@@ -21,4 +21,12 @@ describe Solver do
   it 'Should return the reversed version of the string' do
     expect(@solver.reverse('hello')).to eql 'olleh'
   end
+
+  it'Should return fizz when n % 3 = 0' do
+    expect(@solver.fizzbuzz(3)).to eql 'fizz'
+  end
+
+  it'Should return fizz when n % 5 = 0' do
+    expect(@solver.fizzbuzz(5)).to eql 'buzz'
+  end
 end
